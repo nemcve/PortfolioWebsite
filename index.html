@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="sr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Nemanja Cvejic</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="icon"
+      href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>☁</text></svg>"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style/style.css" />
+  </head>
+  <body>
+    <header class="navigation">
+      <nav class="navbar">
+        <ul class="nav-menu">
+          <li class="nav-item">
+            <a href="#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="#about">About me</a>
+          </li>
+          <li class="nav-item">
+            <a href="#skills">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a href="#projects">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a href="#contact">Contact</a>
+          </li>
+        </ul>
+        <div class="hamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+      </nav>
+    </header>
+
+    <section class="home" id="home">
+      <div class="row">
+        <div class="content">
+          <h2>
+            hello, my name is<br /><span>nemanja cvejic</span><br />i build
+            stuff with Python.
+          </h2>
+        </div>
+      </div>
+    </section>
+
+    <section class="about" id="about">
+      <h3 class="heading"><span>About me💬</span></h3>
+
+      <div class="about-container">
+        <div class="box">
+          <p>
+            I've had a deep interest in all things computer-related since I was
+            a little child. I spent a lot of my childhood playing video games
+            and getting familiar with the basics of using a personal
+            computer.<br />During my high school years, I was fascinated by
+            computer hardware and how computers actually worked. During this
+            time, I also found out about computer science and software
+            development, and I found it quite interesting.<br />
+            As a result, I pursued my studies in Information Technology major at
+            the Technical Faculty "Mihajlo Pupin" Zrenjanin of the University of
+            Novi Sad.<br />Here, I've widened my understanding of software
+            development and the software lifecycle. During my time at
+            university, I worked on a few projects, primarily using the Python
+            programming language.<br />I am currently pursuing a Master's degree
+            in Information Technology at the same university, with a keen
+            interest in learning more about Cloud technologies and DevOps
+            methodology.
+          </p>
+        </div>
+      </div>
+      <h3 class="heading"><span>Education🎓</span></h3>
+      <section class="education">
+        <div class="education-container">
+          <div class="edu-box">
+            <h3>
+              Technical Faculty "Mihajlo Pupin" Zrenjanin, University of Novi
+              Sad
+            </h3>
+            <p>Bachelor's Degree, Information Technology</p>
+            <p>2018 - 2022</p>
+          </div>
+        </div>
+
+        <div class="education-container">
+          <div class="edu-box">
+            <h3>
+              Technical Faculty "Mihajlo Pupin" Zrenjanin, University of Novi
+              Sad
+            </h3>
+            <p>Master's Degree, Information Technology</p>
+            <p>2022 - Estimated 2023</p>
+          </div>
+        </div>
+      </section>
+    </section>
+    <section class="skills" id="skills">
+      <div class="box-container">
+        <div class="box">
+          <h3>Skills⚡</h3>
+          <p href="#"><i class="fa-solid fa-thumbtack"></i> Python</p>
+          <p href="#"><i class="fa-solid fa-thumbtack"></i> Django Framework</p>
+          <p href="#"><i class="fa-solid fa-thumbtack"></i> Linux</p>
+          <p href="#"><i class="fa-solid fa-thumbtack"></i> Git</p>
+          <p href="#"><i class="fa-solid fa-thumbtack"></i> HTML</p>
+          <p href="#"><i class="fa-solid fa-thumbtack"></i> CSS</p>
+          <p href="#"><i class="fa-solid fa-thumbtack"></i> SQL</p>
+          <p href="#"><i class="fa-solid fa-thumbtack"></i> PostgreSQL</p>
+        </div>
+
+        <div class="box">
+          <h3>Tools that I use🔎</h3>
+          <p href="#"><i class="fa-solid fa-thumbtack"></i> Ubuntu</p>
+          <p href="#"><i class="fa-solid fa-thumbtack"></i> Vagrant</p>
+          <p href="#"><i class="fa-solid fa-thumbtack"></i> VSCode</p>
+          <p href="#"><i class="fa-solid fa-thumbtack"></i> VirtualBox</p>
+          <p href="#"><i class="fa-solid fa-thumbtack"></i> Nano</p>
+          <p href="#"><i class="fa-solid fa-thumbtack"></i> GitHub</p>
+          <p href="#"><i class="fa-solid fa-thumbtack"></i> Docker</p>
+          <p href="#"><i class="fa-solid fa-thumbtack"></i> AWS RDS</p>
+          <p href="#"><i class="fa-solid fa-thumbtack"></i> AWS EC2</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="projects" id="projects">
+      <h1 class="heading"><span>Projects 🚧</span></h1>
+
+      <div class="swiper projects-slider">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide box">
+            <div class="image">
+              <img src="./img/amazon.png" alt="" />
+            </div>
+            <div class="content">
+              <h3>Amazon Web Scraper</h3>
+              <p>
+                Amazon web scraper for gathering price information on searched
+                items. Made with Python, BeautifulSoup, Selenium WebDriver, Pandas, and Matplotlib.
+              </p>
+              <a
+                target="_blank"
+                href="https://github.com/nemcve/Amazon-Web-Scraper"
+                class="btn"
+                >See more</a
+              >
+            </div>
+          </div>
+
+          <div class="swiper-slide box">
+            <div class="image">
+              <img src="./img/restaurant.png" alt="" />
+            </div>
+            <div class="content">
+              <h3>Restaurant CRUD App</h3>
+              <p>
+                Management of restaurant meals. User login and
+                registration. Made with Django, AWS RDS PostgreSQL, and Bootstrap. 
+                Containerized using Docker and Docker compose and deployed to an AWS EC2 instance.
+              </p>
+              <a target="_blank" href="https://github.com/nemcve/Django-CRUD-Restaurant" class="btn">See more</a>
+            </div>
+          </div>
+
+          <div class="swiper-slide box">
+            <div class="image">
+              <img src="img/clinic.png" alt="" />
+            </div>
+            <div class="content">
+              <h3>Medical Clinic CRUD App</h3>
+              <p>
+                Management of doctors, patients, and appointments. User login and
+                registration. Made with Django, AWS RDS PostgreSQL, and Bootstrap. 
+                Containerized using Docker and Docker compose and deployed to an AWS EC2 instance.
+              </p>
+              <a target="_blank" href="https://github.com/nemcve/Django-CRUD-HealthClinic" class="btn">See more</a>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <h3 class="heading">
+        <span>You can view my resume <a target="_blank" rel="noreferrer" href="./static/media/NemanjaCvejic-CV.pdf">here</a>.
+        </span>
+      </h3>
+      <div class="share">
+        <h3 class="heading"><span>My GitHub:</span></h3>
+        <a
+          target="_blank"
+          href="https://www.github.com/nemcve"
+          class="fa-brands fa-github"
+        ></a>
+        <h3 class="heading"><span>Let's talk 📩</span></h3>
+        <a
+          target="_blank"
+          href="https://www.linkedin.com/in/nemanjacvejic"
+          class="fab fa-linkedin"
+        ></a>
+        <a
+          href="mailto:nemanja.cvejic023@gmail.com"
+          class="fa-solid fa-envelope"
+        ></a>
+      </div>
+      <div class="credit">&copy; <script>document.write(new Date().getFullYear())</script> Nemanja Cvejic</div>
+    </section>
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
